@@ -7,13 +7,19 @@
         <div class="container">
             {{-- card --}}
             <div class="row">
-                
-                <div class="col-2">
-                    <div class="card">
-                        <img src="https://www.coverbrowser.com/image/action-comics/1-1.jpg" class="img-fluid" alt="...">
+                @foreach ($comics as $comicItems)
+                    <div class="col-2">
+                        <div class="card">
+                            <img src="{{ $comicItems['thumb']}}" class="img-fluid" alt="...">
+                        </div>
+                        <div class="card-body text-white">
+                            <p class="card-text">{{ $comicItems['series']}}</p>
+                        </div>
+                        
                     </div>
-                </div>
+                @endforeach
                 
+
             </div>
         </div>
             
