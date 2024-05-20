@@ -3,10 +3,20 @@
 @section('content')
 
     <div class="hero"></div>
-    <div class="my-bg">
+    <div class="my-bg p-4">
         <div class="container">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti vitae voluptates saepe, minus molestias recusandae officia delectus, reprehenderit nemo modi necessitatibus dolorem est quibusdam id totam ut odio quam hic.
+            {{-- card --}}
+            <div class="row">
+                
+                <div class="col-2">
+                    <div class="card">
+                        <img src="https://www.coverbrowser.com/image/action-comics/1-1.jpg" class="img-fluid" alt="...">
+                    </div>
+                </div>
+                
+            </div>
         </div>
+            
     </div>
 
 @endsection

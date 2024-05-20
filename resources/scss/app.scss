@@ -10,4 +10,16 @@
 
 .my-bg{
     background-color: #1c1c1c;
+
+    .col-2{
+        margin-bottom: 10px;
+
+        .card {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+        }
+
+    }
+    
 }
